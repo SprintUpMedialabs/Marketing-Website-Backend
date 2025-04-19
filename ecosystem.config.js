@@ -1,14 +1,7 @@
 module.exports = {
     apps: [
         {
-            name: "techno-uat",
-            script: "dist/index.js",
-            env: {
-                NODE_ENV: "uat",
-            },
-        },
-        {
-            name: "techno-prod",
+            name: "Marketing Backend",
             script: "dist/index.js",
             env: {
                 NODE_ENV: "production",
